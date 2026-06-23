@@ -5,6 +5,7 @@ type Props = {
 	onNew: () => void;
 	onOpen: () => void;
 	onSave: () => void;
+	onWordExport: () => void;
 };
 
 const Editor = ({
@@ -14,6 +15,7 @@ const Editor = ({
 	onNew,
 	onOpen,
 	onSave,
+	onWordExport,
 }: Props) => {
 	return (
 		<div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
@@ -38,6 +40,9 @@ const Editor = ({
 				</button>
 				<button type="button" onClick={onSave}>
 					保存
+				</button>
+				<button type="button" onClick={onWordExport}>
+					Wordとして保存
 				</button>
 			</header>
 			<textarea

@@ -1,9 +1,11 @@
 import Editor from "./Editor";
 import useDocument from "./useDocument";
+import useWordExport from "./useWordExport";
 
 const App = () => {
 	const { content, fileName, setContent, handleNew, handleOpen, handleSave } =
 		useDocument();
+	const { handleWordExport } = useWordExport();
 
 	return (
 		<Editor
@@ -13,6 +15,7 @@ const App = () => {
 			onNew={handleNew}
 			onOpen={handleOpen}
 			onSave={handleSave}
+			onWordExport={() => handleWordExport(content, fileName)}
 		/>
 	);
 };
