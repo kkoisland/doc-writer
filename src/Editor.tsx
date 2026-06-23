@@ -33,16 +33,16 @@ const Editor = ({
 					{fileName ?? "untitled.md"}
 				</span>
 				<button type="button" onClick={onNew}>
-					新規
+					New
 				</button>
 				<button type="button" onClick={onOpen}>
-					開く
+					Open
 				</button>
 				<button type="button" onClick={onSave}>
-					保存
+					Save
 				</button>
-				<button type="button" onClick={onWordExport}>
-					Wordとして保存
+				<button type="button" onClick={onWordExport} style={{ marginLeft: "8px" }}>
+					Export to Word
 				</button>
 			</header>
 			<textarea
@@ -58,7 +58,7 @@ const Editor = ({
 					fontFamily: "monospace",
 					lineHeight: "1.7",
 				}}
-				placeholder="ここにMarkdownを入力..."
+				placeholder="Type Markdown here..."
 			/>
 		</div>
 	);

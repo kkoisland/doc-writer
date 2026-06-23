@@ -5,7 +5,7 @@ A markdown editor that exports to Word format.
 ## Resources
 
 - Live Demo: https://www.kkoisland.com/doc-writer
-- Slides: TBD
+- Slides: https://www.kkoisland.com/slides-slidev/slides/doc-writer/
 
 ## Features
 
@@ -65,6 +65,71 @@ Add two spaces at the end of a line:
 ```markdown
 **Company Name**  
 ***Job Title***
+```
+
+## Resume Sample
+
+```markdown
+# <center>Name</center>
+
+<center>email@example.com | City, State ZIP | 000-000-0000 | https://linkedin.com/in/yourname | https://yourwebsite.com</center>
+
+## <center>Title</center>
+
+Description of yourself paragraph 1.
+
+Description of yourself paragraph 2.
+
+**Skill Category A** – Skill1 | Skill2 | Skill3 | Skill4
+
+**Skill Category B** – Skill1 | Skill2 | Skill3  
+**Skill Category C** – Skill1 | Skill2 | Skill3
+
+<p></p>
+
+### EXPERIENCE
+**Company A, City, State | 2020 - 2025**  
+***Job Title***
+
+Brief description of your role and responsibilities.
+
+- Accomplishment 1 using Technology A and Technology B, achieving result X
+- Accomplishment 2 with Technology C, improving outcome Y
+- Accomplishment 3 using Tool D, delivering result Z
+
+<p></p>
+
+**Company B, City, State | 2019 - 2020**  
+***Job Title***
+
+Brief description of your role and responsibilities.
+
+- Accomplishment 1 using Technology A and Framework B
+- Accomplishment 2 improving coverage and reliability
+
+<p></p>
+
+**Company C, City, State | 2010 - 2019**  
+***Job Title***
+
+Brief description of your role and responsibilities.
+
+- Accomplishment 1
+- Accomplishment 2
+- Accomplishment 3
+
+<p></p>
+
+### EDUCATION
+**University A**, State — *Master's in Field*
+
+**University B**, Country — *Bachelor's in Field*
+
+<p></p>
+
+### AWARDS
+- Award or recognition 1
+- Award or recognition 2
 ```
 
 ## Tech Stack
